@@ -3,9 +3,7 @@ let a = 2;
 let b = 16;
 console.log(a !== 10);
 
-if (b >= 10 && b <= 20){
-	console.log(b);
-} else if (b % 2 === 0){
+if (b >= 10 && b <= 20 && b % 2 === 0){
 	console.log(b);
 }
 
